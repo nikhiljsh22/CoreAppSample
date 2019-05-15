@@ -1,0 +1,38 @@
+﻿@model List<CoreAppSample.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<div>
+    <h4>Students</h4>
+    @Html.ActionLink("Create New", "Add", "Student")
+    <hr />
+    <table>
+        @foreach (CoreAppSample.Models.Student student in Model)
+        {
+            <tr>
+                <td><b>@Html.DisplayNameFor(x => student.Name)</b></td>
+                <td>@Html.DisplayTextFor(x => student.Name)</td>
+            </tr>
+            <tr>
+                <td><b>@Html.DisplayNameFor(x => student.FathersName)</b></td>
+                <td>@Html.DisplayTextFor(x => student.FathersName)</td>
+            </tr>
+            <tr>
+                <td><b>@Html.DisplayNameFor(x => student.Age)</b></td>
+                <td>@Html.DisplayTextFor(x => student.Age)</td>
+            </tr>
+            <tr>
+                <td>@Html.ActionLink("Edit", "Edit", new { id = student.Id })</td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = student.Id })</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        }
+    </table>
+</div>
