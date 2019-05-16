@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CoreAppSample/CoreAppSample/bin
-/CoreAppSample/.vs/CoreAppSample/v15
+/.vs/CoreAppSample/v15
+/CoreAppSample/bin

@@ -12994,11 +12994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\CoreAppSample\\CoreAppSample.csproj",
+      "projectUniqueName": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\CoreAppSample.csproj",
       "projectName": "CoreAppSample",
-      "projectPath": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\CoreAppSample\\CoreAppSample.csproj",
+      "projectPath": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\CoreAppSample.csproj",
       "packagesPath": "C:\\Users\\H288088\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\CoreAppSample\\obj\\",
+      "outputPath": "C:\\Users\\H288088\\Documents\\CoreAppSample\\CoreAppSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
